@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px){
+	.col-1-4{
+		width: 50%;
+	}
+	form{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 980px){
+	.container{
+		width: 90%;
+	}
+	.service-title p,
+	.portfolio-title p{
+		width: 100%;
+	}
+	.col-1-2{
+		width: 100%;
+	}
+	.client-photo{
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.client-review{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.m-150{
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 768px){
+	h2{
+		font-size: 32px;
+	}
+	.col-1-4{
+		width: 100%;
+	}
+	.contact .container{
+		width: 100%;
+	}
+	.mobile-menu a{
+		text-decoration: none;
+	}
+	.mobile-menu a i{
+		display:block;
+		float: right;
+		color: #fff;
+		font-size: 35px;
+	}
+	.menu{
+		display:none;
+	}
+}

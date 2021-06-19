@@ -1,0 +1,391 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.5;
+}
+.container{
+	width: 90%;
+	margin: auto;
+	max-width: 1220px;
+}
+.p-120{
+	padding: 120px 0;
+}
+h2{
+	font-size: 40px;
+	letter-spacing: 5px;
+	margin: 0;
+}
+h4{
+	font-size: 24px;
+	text-transform:uppercase;
+	letter-spacing: 2px; 
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+h5{
+	color: #393939;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform:uppercase;
+	margin-top: 20px;
+}
+hr{
+	border: 0;
+	border-width: 2px;
+	border-style: solid;
+	border-color: transparent;
+	width: 85px;
+	margin: 15px auto;
+}
+p{
+	font-size: 18px;
+}
+.service-title p,
+.portfolio-title p{
+	width: 60%;
+	margin: auto;
+}
+.header{
+	background: #87509c;
+	padding: 60px 0;
+	color: #fff;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.navigation:after{
+	content: '';
+	display:block;
+	clear: both;
+}
+.menu{
+	width: 80%;
+	float: left;
+}
+.menu ul{
+	text-align: right;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+}
+.menu ul li{
+	display:inline;
+}
+.menu ul li a{
+	text-decoration:none;
+	text-transform: uppercase;
+	color: #fff;
+	background: transparent;
+	padding: 2px 10px;
+	border-radius: 3px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li:hover a,
+.menu ul .active a{
+	background: #643a79;
+}
+.title p{
+	font-size: 42px;
+	text-align: center;
+	font-weight: 700;
+	width: 90%;
+	margin: auto;
+	margin-top: 120px;
+	margin-bottom: 60px;
+}
+.work-btn{
+	margin-bottom: 60px;
+}
+.work-btn a,
+.submit-btn input{
+	text-decoration: none;
+	color: #fff;
+	background: #eb7d4b;
+	width: 270px;
+	margin: auto;
+	display:block;
+	text-align: center;
+	padding: 20px 0;
+	border-radius: 5px;
+	border-bottom: 4px solid #c86a40;
+}
+/* Service Area */
+.service{
+	background: #17c2a4;
+	text-align: center;
+	color: #fff;
+}
+.service hr{
+	border-color: #14a58c;
+}
+.row{
+	overflow: hidden;
+}
+.col-1-4{
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.service .col-1-4 img{
+	height: 120px;
+}
+.service .col-1-4 p{
+	font-size: 16px;
+	font-weight: 300;
+	width: 80%;
+	margin: auto;
+}
+/* Team Area */
+.team{
+	background: #e7f1f8;
+	text-align: center;
+}
+.team hr{
+	border-color: #c8d9e5;
+}
+.team .col-1-4 img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+.team h4{
+	color: #27283d;
+	margin-bottom: 0px;
+}
+.team .col-1-4 .link{
+	text-decoration:none;
+	color: #30bae7;
+}
+.team .col-1-4 p{
+	width: 80%;
+	margin: 20px auto;
+	font-size: 16px;
+	color: #3c4761;
+}
+.social ul{
+	margin: 0;
+	padding: 0;
+}
+.social ul li{
+	display:inline;
+}
+.social ul li a{
+	text-decoration:none;
+	color: #fff;
+}
+.social ul li a i{
+	background: #bdd1df;
+	padding: 10px;
+	width: 18px;
+	height: 18px;
+	font-size: 18px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.social ul li:last-child a i{
+	margin-right:0;
+}
+/* Portfolio Area */
+.portfolio{
+	background: #ffdd99;
+	text-align:center;
+}
+.portfolio hr{
+	border-color: #e5c37f;
+}
+.portfolio-filter{
+	margin-top: 60px;
+}
+.portfolio-filter ul{
+	margin: 0;
+	padding: 0;
+}
+.portfolio-filter ul li{
+	display:inline;
+}
+.portfolio-filter ul li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	background: #ebc985;
+	padding: 6px 24px;
+	border-radius: 5px;
+	color: #333;
+	margin-right: 5px;
+}
+.portfolio-filter ul .active a{
+	background: #fff;
+}
+.col-1-2{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.portfolio .col-1-2 img{
+	width: 90%;
+}
+.load-btn{
+	margin-top: 60px;
+}
+.load-btn a{
+	background: #17c2a4;
+	border-color: #14a58c;
+	text-transform:uppercase;
+	font-weight: 600;
+}
+/* About Area */
+.about-us{
+	background: #d74680;
+	color: #fff;
+}
+.about-title{
+	text-align:center;
+}
+.about-us hr{
+	border-color: #b73c6d;
+}
+.review{
+	overflow: hidden;
+}
+.client-photo{
+	width: 150px; 
+	float: left;
+}
+.client-photo img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.client-review{
+	width: 55%;
+	float: left;
+}
+.client-review q{
+	font-size: 21px;
+	font-weight: 400;
+	font-style: italic;
+}
+.client-review h4{
+	margin: 0;
+	margin-top: 20px;
+}
+.client-review a{
+	color: #ffdd99;
+	text-decoration:none;
+}
+.m-150{
+	margin-top: 150px;
+}
+/* Contact Area */
+.contact-area{
+	background: #3c5499;
+	color: #fff;
+}
+.contact-title{
+	text-align: center;
+}
+.contact-title hr{
+	border-color: #273a71;
+}
+form{
+	width: 80%;
+	margin: auto;
+	margin-top: 60px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea{
+	border: 1px solid #273a71;
+	background: #273a71;
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 5px;
+	color: #fff;
+	box-sizing: border-box;
+}
+form span{
+	color: red;
+}
+.one-half{
+	margin-bottom: 30px;
+}
+.one-half:after{
+	content: '';
+	clear: both;
+	display:block;
+}
+.half1{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+	position: relative;
+}
+.half2{
+	float: left;
+	width: 48%;
+	position: relative;
+}
+.half1 label{
+	position: absolute;
+	top: 12px;
+	left: 20px;
+}
+.half2 label{
+	position: absolute;
+	top: 12px;
+	left: 20px;
+}
+.message{
+	position: relative;
+}
+.message label{
+	position: absolute;
+	top: 12px;
+	left: 20px;
+}
+.custom-btn{
+	margin-top: 60px;
+}
+.custom-btn input{
+	background: #30bae7;
+	border: 1px solid #30bae7;
+	border-bottom: 3px solid #299ec5;
+	font-weight: 600;
+}
+/* Footer Area */
+.footer{
+	background: #344b8e;
+	padding: 60px 0;
+	border-top: 1px solid #999;
+	text-align: center;
+}
+.footer ul{
+	margin: 0;
+	padding: 0;
+}
+.footer ul li{
+	display:inline;
+}
+.footer ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+	margin-right: 30px;
+}
+.footer ul li:last-child a{
+	margin-right: 0;
+}
+.footer ul .t-color a{
+	color: #30bae7;
+}
+.mobile-menu a i{
+	display:none;
+}
